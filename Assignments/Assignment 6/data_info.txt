@@ -1,0 +1,18 @@
+'''Variables:
+name: String variable. The name of the battle.
+year: Numeric variable. The year of the battle.
+battle_number: Numeric variable. A unique ID number for the battle.
+attacker_king: Categorical. The attacker's king. A slash indicators that the king charges over the course of the war. For example, "Joffrey/Tommen Baratheon" is coded as such because one king follows the other in the Iron Throne.
+defender_king: Categorical variable. The defender's king.
+attacker_outcome: Categorical variable. The outcome from the perspective of the attacker. Categories: win, loss, draw.
+battle_type: Categorical variable. A classification of the battle's primary type. Categories:
+    pitched_battle: Armies meet in a location and fight. This is also the baseline category.
+    ambush: A battle where stealth or subterfuge was the primary means of attack.
+    siege: A prolonged of a fortied position.
+    razing: An attack against an undefended position
+major_death: Binary variable. If there was a death of a major figure during the battle.
+major_capture: Binary variable. If there was the capture of the major figure during the battle.
+summer: Binary variable. Was it summer?
+location: String variable. The location of the battle.
+region: Categorical variable. The region where the battle takes place. Categories: Beyond the Wall, The North, The Iron Islands, The Riverlands, The Vale of Arryn, The Westerlands, The Crownlands, The Reach, The Stormlands, Dorne
+total deaths: No of people died from both sides'''
